@@ -1,0 +1,20 @@
+     * {margin: 0 auto;
+box-sizing: border-box;
+}
+
+.gallery{
+display:grid;
+grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+grid-template-rows: repeat(auto-fill,minmax(300px,1fr));
+gap: 10px;
+border: 2px solid rgb(27, 134, 255);
+grid-auto-columns: 100px;
+background-color: rgb(77, 140, 242);
+}
+.julio>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 12px solid rgb(233, 38, 71) };
+
+    
